@@ -134,7 +134,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *UartHandle)
 								temp = temp*10 + (uint16_t)(_UART1_RX_BUF[i]-'0');
 								
 						}
-						PHsensor.PHvalue = temp/100.00;
+						PHsensor.PHvalue = temp;
 						
 				}
 				

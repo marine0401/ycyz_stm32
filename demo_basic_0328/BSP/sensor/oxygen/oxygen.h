@@ -22,7 +22,8 @@ extern uint8_t LPUART1_RX_CNT;
 extern uint8_t LPUART1_HEAD_BUF[3];
 extern uint8_t RS485_FrameFlag;
 extern uint8_t oxygen_res;
-
+extern uint8_t is_oxygen_updated;
 uint8_t oxygenSensor_init();	
 void send_get_oxygenSensor_addr_msg();
 void send_get_attribute(void);
+void send_set_mode(void);

@@ -15,6 +15,7 @@ uint8_t LPUART1_RX_CNT=0;
 uint8_t LPUART1_HEAD_BUF[3]={0};
 uint8_t RS485_FrameFlag=0;
 uint8_t oxygen_res=0;
+uint8_t is_oxygen_updated = 0;
 uint8_t oxygenSensor_init()	
 {
 	OxygenSensor.status=0;
@@ -28,14 +29,14 @@ uint8_t rx_buf[10];
 void send_get_attribute(void){
 
 	uint8_t buf1[]={0x01,0x03,0x00,0x10,0x00,0x08,0x45,0xC9};
-	oxygen_res++;
-	
-	if(oxygen_res == 1){
-		HAL_UART_Receive_IT(&hlpuart1,LPUART1_RX_BUF,22);
-	}else{
+//	oxygen_res++;
+//	
+//	if(oxygen_res == 1){
+//		HAL_UART_Receive_IT(&hlpuart1,LPUART1_RX_BUF,22);
+//	}else{
 		HAL_UART_Receive_IT(&hlpuart1,LPUART1_RX_BUF,21);
-		oxygen_res = 2;
-	}
+//		oxygen_res = 2;
+//	}
 	
 	UartLPReady = RESET;//清标志
 	LPUART1_RX_STATUS = 0;
@@ -52,9 +53,30 @@ void send_get_attribute(void){
 		}
 		osDelay(1);//等待1ms
 	}
-	
 		
 
+}
+void send_set_mode(){
+		uint8_t buf1[]={0x01,0x10,0x00,0x00,0x00,0x02,0x04,0x00,0x0a,0x00,0x3c,0xd3,0xbc};
+	
+	HAL_UART_Receive_IT(&hlpuart1,LPUART1_RX_BUF,9);
+
+	
+	UartLPReady = RESET;//清标志
+	LPUART1_RX_STATUS = 0;
+	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, GPIO_PIN_SET);
+	osDelay(10);
+	HAL_UART_Transmit_IT(&hlpuart1, (uint8_t *)buf1, sizeof(buf1)/sizeof(uint8_t));
+	while(true)
+	{
+		if(UartLPReady == SET)
+		{
+			HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, GPIO_PIN_RESET);
+			printf("send done\r\n");
+			break;
+		}
+		osDelay(1);//等待1ms
+	}
 }
 
 void send_get_oxygenSensor_addr_msg()

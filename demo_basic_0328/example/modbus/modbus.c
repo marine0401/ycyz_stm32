@@ -71,7 +71,10 @@ void ModBusParse(void)
 					if(mb_buf_in[2] == 0x10){
 						OxygenSensor.Temperature = (uint8_t)mb_buf_in[5]*256+(uint8_t)mb_buf_in[6];
 						
-						
+					if(mb_buf_in[18]&0x1)	
+						is_oxygen_updated = 1;
+						OxygenSensor.DissolvedOxygen = (uint8_t)mb_buf_in[11]*256 + (uint8_t)mb_buf_in[12];
+						OxygenSensor.DissolvedOxygenRate = (uint8_t)mb_buf_in[7]*256+(uint8_t)mb_buf_in[8];
 					}
 				
 //          if( (st+nu) < 32) // dont ask more, that we has!

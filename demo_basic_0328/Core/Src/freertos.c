@@ -247,7 +247,8 @@ void readOxygenThread(void const * argument)
 	//HAL_TIM_Base_Start_IT(&htim7);
 
 	//send_get_attribute();
-
+	send_set_mode();
+	osDelay(10000);
 	printf("readOxygen Runnung 2\r\n");
   for(;;)
   {
@@ -277,6 +278,8 @@ void readOxygenThread(void const * argument)
 					printf("%x ",LPUART1_RX_BUF[i]);
 				}
 				  printf("temper = %d \r\n",OxygenSensor.Temperature);
+				printf("rate = %d \r\n",OxygenSensor.DissolvedOxygenRate);
+				printf("oxygen = %d \r\n",OxygenSensor.DissolvedOxygen);
 			     printf("\r\nrec done\r\n");
 					 LPUART1_RX_STATUS = 0;
 					break;

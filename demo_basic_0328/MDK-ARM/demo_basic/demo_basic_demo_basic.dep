@@ -74,7 +74,7 @@ I (../BSP/sensor/power/power.h)(0x5FD8718C)
 I (../BSP/hard_change/bsp_change.h)(0x5FEA95E5)
 I (../example/modbus/modbus.h)(0x63A84CF4)
 I (../example/nbiot_aliyun_air/example_nbiot_aliyun_air.h)(0x64215B20)
-I (../BSP/sensor/oxygen/oxygen.h)(0x642A6388)
+I (../BSP/sensor/oxygen/oxygen.h)(0x642BE9DE)
 I (../COMM/nbiot/nbiot.h)(0x601A057A)
 F (../Core/Src/gpio.c)(0x64239CD9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\gpio.o --omf_browse demo_basic\gpio.crf --depend demo_basic\gpio.d)
 I (../Core/Inc/gpio.h)(0x64239CD9)
@@ -116,7 +116,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x62CBD4CD)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x62CBD4CD)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x62CBD4CD)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x62CBD4CD)
-F (../Core/Src/freertos.c)(0x642A6BE8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\freertos.o --omf_browse demo_basic\freertos.crf --depend demo_basic\freertos.d)
+F (../Core/Src/freertos.c)(0x642BE8AA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\freertos.o --omf_browse demo_basic\freertos.crf --depend demo_basic\freertos.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x62CBD470)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
@@ -184,9 +184,9 @@ I (../COMM/comm_config.h)(0x5FD99D81)
 I (../example/task_config.h)(0x601A04F1)
 I (../BSP/sensor/power/power.h)(0x5FD8718C)
 I (../BSP/hard_change/bsp_change.h)(0x5FEA95E5)
-I (../BSP/sensor/ph/ph.h)(0x642405B3)
+I (../BSP/sensor/ph/ph.h)(0x642BE8AD)
 I (../example/nbiot_aliyun_air/example_nbiot_aliyun_air.h)(0x64215B20)
-I (../BSP/sensor/oxygen/oxygen.h)(0x642A6388)
+I (../BSP/sensor/oxygen/oxygen.h)(0x642BE9DE)
 I (../COMM/serial_port.h)(0x6424EBA3)
 I (../example/modbus/modbus.h)(0x63A84CF4)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
@@ -436,8 +436,8 @@ I (../BSP/sensor/CCS811/myiic.h)(0x5FC0BB2B)
 I (../Core/Inc/gpio.h)(0x64239CD9)
 I (../Core/Inc/usart.h)(0x64239CDE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
-I (../BSP/sensor/ph/ph.h)(0x642405B3)
-I (../BSP/sensor/oxygen/oxygen.h)(0x642A6388)
+I (../BSP/sensor/ph/ph.h)(0x642BE8AD)
+I (../BSP/sensor/oxygen/oxygen.h)(0x642BE9DE)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x62CBD470)
 I (../Core/Inc/FreeRTOSConfig.h)(0x639DBE84)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x62CBD470)
@@ -726,7 +726,7 @@ I (../Core/Inc/spi.h)(0x64239CDF)
 I (../SYSTEM/sys.h)(0x5F90EBF8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
 F (..\BSP\sensor\ph\ph.c)(0x642405B3)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\ph.o --omf_browse demo_basic\ph.crf --depend demo_basic\ph.d)
-I (../BSP/sensor/ph/ph.h)(0x642405B3)
+I (../BSP/sensor/ph/ph.h)(0x642BE8AD)
 I (../Core/Inc/usart.h)(0x64239CDE)
 I (../Core/Inc/main.h)(0x639DBE85)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x62CBD4CD)
@@ -769,7 +769,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x62CBD4CD)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
 I (../BSP/sensor/sensor_config.h)(0x6018B64B)
 I (../COMM/serial_port.h)(0x6424EBA3)
-F (..\BSP\sensor\oxygen\oxygen.c)(0x642A6A88)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\oxygen.o --omf_browse demo_basic\oxygen.crf --depend demo_basic\oxygen.d)
+F (..\BSP\sensor\oxygen\oxygen.c)(0x642BE9DE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\oxygen.o --omf_browse demo_basic\oxygen.crf --depend demo_basic\oxygen.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
 I (../Core/Inc/usart.h)(0x64239CDE)
 I (../Core/Inc/main.h)(0x639DBE85)
@@ -811,7 +811,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x62CBD4CD)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x62CBD4CD)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x62CBD4CD)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
-I (../BSP/sensor/oxygen/oxygen.h)(0x642A6388)
+I (../BSP/sensor/oxygen/oxygen.h)(0x642BE9DE)
 I (../BSP/sensor/sensor_config.h)(0x6018B64B)
 I (../COMM/serial_port.h)(0x6424EBA3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x62CBD470)
@@ -828,7 +828,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x62CBD470)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x62CBD470)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x62CBD470)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x62CBD470)
-F (..\BSP\sensor\oxygen\oxygen.h)(0x642A6388)()
+F (..\BSP\sensor\oxygen\oxygen.h)(0x642BE9DE)()
 F (..\SYSTEM\delay\delay.c)(0x5F90EBF8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\delay.o --omf_browse demo_basic\delay.crf --depend demo_basic\delay.d)
 I (../SYSTEM/delay/delay.h)(0x5BD4398A)
 I (../SYSTEM/sys.h)(0x5F90EBF8)
@@ -1041,7 +1041,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x62CBD4CD)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x62CBD4CD)
 I (../BSP/sensor/sensor_config.h)(0x6018B64B)
 F (..\BSP\sensor\sensor_config.h)(0x6018B64B)()
-F (..\COMM\serial_port.c)(0x642A6FB2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\serial_port.o --omf_browse demo_basic\serial_port.crf --depend demo_basic\serial_port.d)
+F (..\COMM\serial_port.c)(0x642BE8AD)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\serial_port.o --omf_browse demo_basic\serial_port.crf --depend demo_basic\serial_port.d)
 I (..\COMM\serial_port.h)(0x6424EBA3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x62CBD4CD)
 I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6426A179)
@@ -1100,9 +1100,9 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x62CBD470)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x62CBD470)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x62CBD470)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x62CBD470)
-I (../BSP/sensor/ph/ph.h)(0x642405B3)
+I (../BSP/sensor/ph/ph.h)(0x642BE8AD)
 I (../Core/Inc/stm32l4xx_it.h)(0x64263DFA)
-I (../BSP/sensor/oxygen/oxygen.h)(0x642A6388)
+I (../BSP/sensor/oxygen/oxygen.h)(0x642BE9DE)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
 F (..\COMM\nbiot\nbiot.c)(0x6420F45C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\nbiot.o --omf_browse demo_basic\nbiot.crf --depend demo_basic\nbiot.d)
 I (..\COMM\nbiot\nbiot.h)(0x601A057A)
@@ -1210,11 +1210,11 @@ I (../COMM/nbiot/nbiot.h)(0x601A057A)
 I (../COMM/comm_config.h)(0x5FD99D81)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
 I (../BSP/sensor/power/power.h)(0x5FD8718C)
-I (../BSP/sensor/ph/ph.h)(0x642405B3)
+I (../BSP/sensor/ph/ph.h)(0x642BE8AD)
 I (../BSP/gui/gui.h)(0x5FCF2C1C)
 I (../COMM/serial_port.h)(0x6424EBA3)
 F (..\example\task_config.h)(0x601A04F1)()
-F (..\example\modbus\modbus.c)(0x642A7024)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\modbus.o --omf_browse demo_basic\modbus.crf --depend demo_basic\modbus.d)
+F (..\example\modbus\modbus.c)(0x642BE9FC)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP -I ../SYSTEM -I ../BSP/sensor -I ../COMM -I ../example -I ../COMM/nbiot -I ../example/nbiot_aliyun_air -I ../BSP/GUI -I ../BSP/hard_change -I ../BSP/sensor/CCS811 -I ../BSP/sensor/ph-I.\RTE\_demo_basic-IC:\Users\marine0401\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\marine0401\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o demo_basic\modbus.o --omf_browse demo_basic\modbus.crf --depend demo_basic\modbus.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x62CBD470)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
@@ -1232,7 +1232,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x62CBD470)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x62CBD470)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x62CBD470)
 I (..\example\modbus\modbus.h)(0x63A84CF4)
-I (../BSP/sensor/oxygen/oxygen.h)(0x642A6388)
+I (../BSP/sensor/oxygen/oxygen.h)(0x642BE9DE)
 I (../Core/Inc/usart.h)(0x64239CDE)
 I (../Core/Inc/main.h)(0x639DBE85)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x62CBD4CD)
